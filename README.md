@@ -25,8 +25,8 @@ This project meets the requirements of a large course assignment by demonstratin
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/eugenykaspruk/flight-price-tracker.git
-    cd flight-price-tracker
+    git clone https://github.com/eugenykaspruk/FlightPriceTracker
+    cd flight-tracker
     ```
 
 2.  **Install Dependencies:**
@@ -34,10 +34,7 @@ This project meets the requirements of a large course assignment by demonstratin
     pip install -r requirements.txt
     ```
 
-3.  **Set API Key:**
-    Edit the `flight_tracker.py` file and replace `"YOUR_RAPIDAPI_KEY_HERE"` with your actual `x-rapidapi-key`.
-
-4.  **Example CLI Command:**
+3.  **Example CLI Command:**
     Run the application, passing the route as an argument using 3-letter IATA codes.
     ```bash
     python flight_tracker.py --route JFK-LOS
@@ -48,6 +45,5 @@ This project meets the requirements of a large course assignment by demonstratin
 This project includes a `Dockerfile` for seamless deployment.
 
 ### 1. Build the Docker Image
-*(Replace `yourusername` with your Docker Hub username)*
 ```bash
-docker build -t yourusername/flight-tracker:latest .
+docker build -t eugenykaspruk/flight-tracker:latest .
