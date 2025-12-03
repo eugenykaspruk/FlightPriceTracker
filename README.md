@@ -47,3 +47,7 @@ This project includes a `Dockerfile` for seamless deployment.
 ### 1. Build the Docker Image
 ```bash
 docker build -t eugenykaspruk/flight-tracker:latest .
+```
+### 2. Execute Sample Code
+```bash
+docker run eugenykaspruk/flight-tracker:latest --route JFK-LOS
