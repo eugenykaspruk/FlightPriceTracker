@@ -25,7 +25,7 @@ This project meets the requirements of a large course assignment by demonstratin
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/yourusername/flight-price-tracker.git](https://github.com/yourusername/flight-price-tracker.git)
+    git clone https://github.com/eugenykaspruk/flight-price-tracker.git
     cd flight-price-tracker
     ```
 
